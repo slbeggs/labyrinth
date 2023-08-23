@@ -2,7 +2,7 @@
 Text based adventure game
 **Labyrinth Game Overview**
 
-Labyrinth is a sophisticated text-based dungeon exploration game. In this interactive environment, participants navigate through a semi-procedurally generated universe, collecting supplies and confronting various challenges.
+Labyrinth is a text-based dungeon exploration game. In this interactive environment, participants navigate through a semi-procedurally generated universe, collecting supplies and confronting various challenges.
 
 **Combat Mechanics**
 
