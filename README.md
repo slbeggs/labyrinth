@@ -37,7 +37,9 @@ To manage these exceptions:
 
 **Game Map and Data Structure**
 
-Within Labyrinth, players traverse a meticulously designed game map consisting of a grid of cells. Each of these cells represents a distinct area and is an instance of a custom class. This class has characteristics akin to a double-linked list, but with a unique twist: every node has four distinct links, allowing movement north, east, south, or west.![Game map cell grid](https://github.com/slbeggs/labyrinth/assets/101913063/1bcf9240-3264-4f45-9261-594fdb0912d6)
+Within Labyrinth, players traverse a meticulously designed game map consisting of a grid of cells. 
+Each of these cells represents a distinct area and is an instance of a custom class. This class has characteristics akin to a double-linked list, but with a unique twist: every node has four distinct links, allowing movement north, east, south, or west.
+![Game map cell grid](https://github.com/slbeggs/labyrinth/assets/101913063/1bcf9240-3264-4f45-9261-594fdb0912d6)
 
 
 
