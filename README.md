@@ -16,6 +16,11 @@ The combat system in Labyrinth is structured around two primary design elements:
    
 2. **Turn-based Actions:** During their turn, players can choose from a variety of actions, including attacking or healing. Every action depletes time points. Once all time points are exhausted, the turn concludes. Combat continues with the player and enemy alternating turns until one party's health points are completely depleted.
 
+![Combat 1](https://github.com/slbeggs/labyrinth/assets/101913063/1b0a56a8-38eb-4c89-9052-c33cfd4c6f87)
+
+![Combat 2](https://github.com/slbeggs/labyrinth/assets/101913063/504f24c9-f068-4e46-a423-1fc32c6c2131)
+
+
 **Exception Handling Mechanism**
 
 The primary input method is through integers, each corresponding to a specific option in a menu. Potential errors arise when:
