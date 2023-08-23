@@ -30,11 +30,19 @@ The primary input method is through integers, each corresponding to a specific o
 To manage these exceptions:
 - All non-integer inputs are processed as zero.
 - The menu is designed to exclude the option of zero.
-- If the user's input doesn't match any menu options, an exception is invoked via an "else" clause. The user will then be prompted to provide a valid input.
+- If the user's input doesn't match any menu options, an exception is invoked via an "else" clause. The user will then be prompted to provide a valid input
+
+.![Exception Handling](https://github.com/slbeggs/labyrinth/assets/101913063/3a96ffb1-3964-4a0c-9276-105bb38d0290)
+
 
 **Game Map and Data Structure**
 
 Within Labyrinth, players traverse a meticulously designed game map consisting of a grid of cells. Each of these cells represents a distinct area and is an instance of a custom class. This class has characteristics akin to a double-linked list, but with a unique twist: every node has four distinct links, allowing movement north, east, south, or west.
+![Game map cell grid](https://github.com/slbeggs/labyrinth/assets/101913063/1bcf9240-3264-4f45-9261-594fdb0912d6)
+
 
 **Maze Generation Algorithm:** 
 Initially, all cell links are in a locked state. The algorithm strategically generates paths by unlocking certain links, ensuring every cell becomes accessible to the player. The final product consists of a mix of unlocked pathways (open spaces) and locked pathways (walls).
+
+![RandomMaze](https://github.com/slbeggs/labyrinth/assets/101913063/da0d2b26-97ee-4cb0-b3c3-d52df215b495)
+
